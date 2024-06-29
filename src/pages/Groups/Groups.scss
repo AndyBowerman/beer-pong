@@ -1,0 +1,30 @@
+.Groups {
+    .Header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+
+        .EnterTeams {
+            display: flex;
+            margin-right: 10px;
+        }
+
+        .GroupsNumber {
+            display: flex;
+
+            &Label {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .Main {
+        border: 1px solid black;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

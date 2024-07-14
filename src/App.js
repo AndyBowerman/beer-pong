@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Groups from './pages/Groups/Groups';
 
 function App() {

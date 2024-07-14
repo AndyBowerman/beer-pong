@@ -1,4 +1,46 @@
-.Table {
-    width: 150px;
-    background-color: lightblue;
+.TableContainer {
+    width: 430px;
+    margin-right: 10px;
+
+    h1 {
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .Table {
+        background-color: #2f334d;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 10px;
+        max-height: 340px;
+        overflow-y: scroll;
+
+        &Head {
+            background-color: rgb(143, 107, 172);
+            display: flex;
+
+            div {
+                font-size: 18px;
+                font-weight: bold;
+                width: 120px;
+                padding: 5px;
+                border: 1px solid white;
+            }
+
+            .Mid {
+                width: 90px;
+            }
+        }    
+    }
+
+    .Fixtures {
+        background-color: #2f334d;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 10px;
+        max-height: 410px;
+        overflow-y: scroll;
+    }
 }
